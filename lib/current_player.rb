@@ -1,1 +1,1 @@
-turn(board)
+def turn(board)
