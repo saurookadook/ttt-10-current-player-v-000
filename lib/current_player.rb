@@ -3,9 +3,9 @@ def turn_count(board)
   board.each do |space|
     if "#{space}" == ("X" || "O")
       counter += 1
-      return counter
     end
   end
+  return counter
 end
 
 def current_player(board)
